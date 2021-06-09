@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #d3e3e7;
+  box-shadow: 3px 3px 9px 6px #fff;
+}
+.item {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+
+  font-weight: 600;
+  color: #fdf5ee;
+}
+.item:nth-last-child(1) {
+  margin-bottom: 0;
+}
